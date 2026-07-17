@@ -2,7 +2,7 @@
 
 A simple, fully client-side decentralized application (DApp) for a token presale / crowdsale. The frontend lets a visitor connect a Web3 wallet (MetaMask), see live presale stats (tokens sold, progress, rate) pulled straight from the smart contract, and buy the XYZ token with BNB on the Binance Smart Chain.
 
-This is a learning / showcase project: no backend, no build step — just static HTML, CSS, and ES-module JavaScript talking to an on-chain `Crowdsale` contract via ethers.js.
+This is a learning / showcase project: no backend, no build step, just static HTML, CSS, and ES-module JavaScript talking to an on-chain `Crowdsale` contract via ethers.js.
 
 ## Live demo
 
@@ -23,7 +23,7 @@ https://mfahadiqbalofcl.github.io/XYZ-DApp/
 - **Web3:** [ethers.js 5.6](https://docs.ethers.org/v5/) (bundled in `assets/auth/`)
 - **Wallet:** MetaMask / EIP-1193 provider
 - **Chain:** Binance Smart Chain (mainnet `0x38` / testnet `0x61`)
-- **Smart contract:** Solidity `^0.8`, OpenZeppelin (`Ownable`, `IERC20`, `SafeMath`) — see `assets/auth/presale.sol`
+- **Smart contract:** Solidity `^0.8`, OpenZeppelin (`Ownable`, `IERC20`, `SafeMath`); see `assets/auth/presale.sol`
 - **Hosting:** GitHub Pages
 
 ## Smart contract
